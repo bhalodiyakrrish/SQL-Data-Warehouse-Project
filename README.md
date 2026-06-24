@@ -74,6 +74,8 @@ These insights empower stakeholders with key business metrics, enabling strategi
 ```
 data-warehouse-project/
 │
+├── data analysis/                      # A comprehensive collection of SQL scripts for data exploration, analytics, and reporting.
+|
 ├── datasets/                           # Raw datasets used for the project (ERP and CRM data)
 │
 ├── docs/                               # Project documentation and architecture details
@@ -84,6 +86,8 @@ data-warehouse-project/
 │   ├── data_models.drawio              # Draw.io file for data models (star schema)
 │   ├── naming-conventions.md           # Consistent naming guidelines for tables, columns, and files
 │
+├── report/                             # Scripts designed to help data analysts and BI professionals quickly explore, segment, and analyze data within a relational database.
+|
 ├── scripts/                            # SQL scripts for ETL and transformations
 │   ├── bronze/                         # Scripts for extracting and loading raw data
 │   ├── silver/                         # Scripts for cleaning and transforming data
